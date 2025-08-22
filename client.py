@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import logging
 
 api_url = 'https://data.tomelilla.se/rowstore/dataset/3617552e-4c28-4a46-9b74-ac8bbbfee33f'
 
