@@ -1,0 +1,8 @@
+2025-08-22 11:52:40,916 | client.py:53 | INFO | API request successful. Status code: 200
+2025-08-22 11:52:40,922 | client.py:61 | INFO | Response data saved to stuff.json
+2025-08-22 11:52:40,925 | client.py:81 | INFO | ✅ Data fetched and saved successfully!
+2025-08-22 11:53:15,310 | client.py:67 | ERROR | Connection error - couldn't reach the server
+2025-08-22 11:53:15,310 | client.py:83 | WARNING | ❌ Failed to fetch data. No file was created.
+2025-08-26 16:56:33,808 | client.py:53 | INFO | API request successful. Status code: 200
+2025-08-26 16:56:33,812 | client.py:61 | INFO | Response data saved to stuff.json
+2025-08-26 16:56:33,815 | client.py:81 | INFO | ✅ Data fetched and saved successfully!
