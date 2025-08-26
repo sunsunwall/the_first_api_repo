@@ -24,9 +24,12 @@ def fetch_data(api_url):
         smhi_data = response.json()
         
         logger.info("Data fetched successfully.")
-        
-        return smhi_data
 
+        with open("smhi_data.json", "w", encoding="utf-8") as f:
+            json.dump(smhi_data, f, ensure_ascii=False)
+
+        return smhi_data
+        
     except requests.exceptions.Timeout:
         logger.error("Request timed out - the server took too long to respond")
         
@@ -38,6 +41,7 @@ def fetch_data(api_url):
         
     except requests.exceptions.RequestException as e:
         logger.error(f"An error occurred: {e}")
+
 
 if __name__ == "__main__":
 
