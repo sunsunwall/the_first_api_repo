@@ -6,7 +6,7 @@ steps:
     args: [
       'build',
       '-t', 'europe-north2-docker.pkg.dev/$PROJECT_ID/de-pipeline/fastapi-demo:${SHORT_SHA}',
-      '-f', 'dockerfile',
+      '-f', 'Dockerfile',
       '.',
     ]
 
