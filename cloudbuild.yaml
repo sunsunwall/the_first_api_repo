@@ -6,7 +6,7 @@ steps:
     args: [
       'build',
       # The image name should have the Artifact Registry Repo!
-      '-t', 'europe-north2-docker.pkg.dev/$PROJECT_ID/first-api-pipelin/fastapi-demo:${SHORT_SHA}',
+      '-t', 'europe-north2-docker.pkg.dev/$PROJECT_ID/first-api-pipeline/fastapi-demo:${SHORT_SHA}',
       '-f', 'Dockerfile',
       '.',
     ]
