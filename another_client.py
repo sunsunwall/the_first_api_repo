@@ -3,11 +3,11 @@ import json
 import os
 import logging
 
-api_url = "https://opendata-download-metobs.smhi.se/api.json"
+api_url = "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/lon/17.9070/lat/59.3516/data.json"
 
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s | %(filename)s:%(lineno)d | %(levelname)s | %(message)s",
+    format="%(asctime)s | %(filename)s:%(lineno)d | %(levelname)s | %(message)s", # 59.35167827164732, 17.907036519914694
     handlers=[
         logging.StreamHandler(),
         logging.FileHandler("api_client_log.log")

@@ -1,0 +1,12 @@
+[project]
+name = "the-first-api-repo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.116.1",
+    "requests>=2.32.5",
+    "rich>=14.1.0",
+    "uvicorn>=0.35.0",
+]
