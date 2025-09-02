@@ -5,7 +5,8 @@ steps:
   - name: 'gcr.io/cloud-builders/docker'
     args: [
       'build',
-      '-t', 'europe-north2-docker.pkg.dev/$PROJECT_ID/first-api-repo/fastapi-demo:${SHORT_SHA}',
+      # The image name should have the Artifact Registry Repo!
+      '-t', 'europe-north2-docker.pkg.dev/$PROJECT_ID/first-api-pipelin/fastapi-demo:${SHORT_SHA}',
       '-f', 'Dockerfile',
       '.',
     ]
